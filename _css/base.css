@@ -1,0 +1,269 @@
+html{
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; 
+  font-size:12px; 
+  color:#868787;
+}
+
+body{
+  background:url('../_imgs/bg.jpg') repeat-x 0 0 #e1e5e5;
+}
+
+
+h2{
+  color:#999; 
+  padding-bottom:8px;
+  text-transform: uppercase;
+}
+
+h3{
+  color:#999; 
+  padding-bottom:9px;
+  font-size:16px;
+}
+
+img{
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+input{
+  padding: 5px;
+  background: url('../_imgs/bg_input.gif') repeat-x #FFFFFF;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  width:198px;
+  float: left;
+  margin-bottom:6px;
+}
+
+textarea{
+  padding: 5px;
+  background: url('../_imgs/bg_input.gif') repeat-x #FFFFFF;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  width:198px;
+  float: left;
+  margin-bottom:6px;
+}
+
+#container{
+  margin-top:45px;
+}
+
+#content{
+  width:985px;
+  height:100px;
+  min-height:600px;
+  margin:0 auto;
+}
+
+#header .logo {
+  left:50%;
+  width:221px;
+  height:69px;
+  margin:0 auto;
+  display: block;
+}
+
+#header .tel{
+  float:right;
+  text-align:right;
+  margin-top:-50px;
+  color:#6b6b6b;
+  font-weight:bold;
+  font-size:16px;
+}
+
+#header .tel h3{
+  color:#6b6b6b;
+  font-weight:bold;
+  font-size:22px;
+}
+
+.menu{
+  width:980px;
+  height:47px;
+  margin:0 auto;
+  background:url('../_imgs/bg_menu.png') no-repeat 0 0;
+  padding:0px 0 0 0;
+  font-size:14px;
+}
+
+.menu li{
+  float:left;
+  list-style:none;
+  margin-left:0px;
+  text-align:center;
+}
+
+.menu a{
+  color:#707070;
+}
+
+.menu a:hover{
+  color:#b0b0b0;
+  text-decoration:underline;
+}
+
+.menu li.btn-menu-01{
+  width:80px;
+  height:45px;
+  padding-top:15px;
+}
+
+.menu li.btn-menu-02{
+  width:92px;
+  height:45px;
+  padding-top:15px;
+}
+
+.menu li.btn-menu-03{
+  width:103px;
+  height:45px;
+  padding-top:15px;
+}
+
+.menu li.btn-menu-04{
+  width:166px;
+  height:45px;
+  padding-top:15px;
+}
+
+.menu li.btn-menu-05{
+  width:150px;
+  height:45px;
+  padding-top:15px;
+}
+
+.menu li.btn-menu-06{
+  width:94px;
+  height:45px;
+  padding-top:15px;
+}
+
+.menu li.btn-menu-07{
+  width:102px;
+  height:45px;
+  padding-top:15px;
+}
+
+.menu li.btn-menu-08{
+  width:102px;
+  height:45px;
+  padding-top:15px;
+}
+
+.menu li.btn-menu-09{
+  width:91px;
+  height:45px;
+  padding-top:15px;                     
+}
+
+.menu li.btn-menu-01.ativo{
+  background:url('../_imgs/sprit_menu.png') no-repeat 0 1px;
+}
+
+.menu li.btn-menu-02.ativo{
+  background:url('../_imgs/sprit_menu.png') no-repeat -80px 1px;
+}
+
+.menu li.btn-menu-03.ativo{
+  background:url('../_imgs/sprit_menu.png') no-repeat -173px 1px;
+}
+
+.menu li.btn-menu-04.ativo{
+  background:url('../_imgs/sprit_menu.png') no-repeat -276px 1px;
+}
+
+.menu li.btn-menu-05.ativo{
+  background:url('../_imgs/sprit_menu.png') no-repeat -443px 1px;
+}
+
+.menu li.btn-menu-06.ativo{
+  background:url('../_imgs/sprit_menu.png') no-repeat -592px 1px;
+}
+
+.menu li.btn-menu-07.ativo{
+  background:url('../_imgs/sprit_menu.png') no-repeat -686px 1px;
+}
+
+.menu li.btn-menu-08.ativo{
+  background:url('../_imgs/sprit_menu.png') no-repeat -788px 1px;
+}
+
+.menu li.btn-menu-09.ativo{
+  background:url('../_imgs/sprit_menu.png') no-repeat -890px 1px;
+}
+
+.menu .ativo a{
+  color:#fff;
+}
+
+.icons-header{
+  width:80px;
+  height:47px;
+  text-align:right;
+  float:right;
+  margin-right:10px;
+  margin-bottom:-20px;
+}
+
+.banner{
+  height:300px;
+  margin:31px 0px 0px 0px;
+}
+
+#banner{
+  list-style: none;
+}
+
+.divisa{
+  width:982px;
+  height:1px;
+  border-top:2px dotted #ccc;
+  clear: both;
+  margin-top:25px;
+  margin-bottom:10px;
+}
+
+.btn1{
+  background:url('../_imgs/btn-01.png') no-repeat 0 0;
+  width:86px;
+  height:28px;
+  color:#fff;
+  padding:8px 30px 10px 15px;
+  font-size:12px;
+  font-weight:bold;
+}
+
+.btn2{
+  background:url('../_imgs/btn-01.png') no-repeat 0 0;
+  width:86px;
+  height:28px;
+  color:#fff;
+  padding:7px 30px 10px 25px;
+  font-size:12px;
+  font-weight:bold;
+}
+
+#footer{
+  background:#000;
+  width:100%;
+  height:20px;
+  bottom:0;
+  display:block;
+
+}
+
+#copyright{
+  text-align:center;
+  margin:0px auto;
+  width:960px;
+  padding-top:5px;
+
+}
